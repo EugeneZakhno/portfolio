@@ -281,8 +281,8 @@ a.tm-text-primary:hover { color:#666666; }
 }
 
 p, .tm-text-gray { color: #999; }
-.tm-text-gray-light { color: #CCC; }
-.tm-text-gray-dark { color: #666; }
+.tm-text-gray-light { color: #363232; }
+.tm-text-gray-dark { color: #262323; }
 
 .tm-video-item {
     position: relative;

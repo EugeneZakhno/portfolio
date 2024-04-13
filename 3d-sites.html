@@ -3,10 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webfolio</title>
+    <title>Catalog-Z Videos</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/templatemo-style.css">
+<!--
+
+TemplateMo 556 Catalog-Z
+
+https://templatemo.com/tm-556-catalog-z
+
+-->
 </head>
 <body>
     <!-- Page Loader -->
@@ -15,11 +22,13 @@
 
         <div class="loader-section section-left"></div>
         <div class="loader-section section-right"></div>
+
     </div>
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                3D-Webportfolio of Eugene
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-film mr-2"></i>
+                Catalog-Z
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
@@ -27,19 +36,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link nav-link-1 active" aria-current="page" href="index.html">Сайты</a>
+                    <a class="nav-link nav-link-1" aria-current="page" href="index.html">Сайты</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-link-2" href="3d-sites.html">3D-сайты</a>
+                    <a class="nav-link nav-link-2 active" href="3d-models.html">3D-сайты</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-link-3" href="3d-models.html">3D-модели</a>
+                    <a class="nav-link nav-link-3"  href="3d-models.html">3D-модели</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link nav-link-4" href="about.html">Платежные страницы</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-link-5" href="contact.html">Боты</a>
+                    <a class="nav-link nav-link-5" href="contact.html">Java</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link nav-link-6" href="contact.html">Контакты</a>
@@ -49,50 +58,78 @@
         </div>
     </nav>
 
-    <div class="tm-hero d-flex justify-content-center align-items-center" data-parallax="scroll" data-image-src="img/hero.jpg">
-        <!-- <form class="d-flex tm-search-form">
-             <input class="form-control tm-search-input" type="search" placeholder="Search" aria-label="Search">
-             <button class="btn btn-outline-success tm-search-btn" type="submit">
-                 <i class="fas fa-search"></i>
-             </button>
-        </form> -->
+    <div class="tm-hero d-flex justify-content-center align-items-center" id="tm-video-container">
+        <video autoplay muted loop id="tm-video">
+            <source src="video/hero.mp4" type="video/mp4">
+        </video>
+        <i id="tm-video-control-button" class="fas fa-pause"></i>
     </div>
 
     <div class="container-fluid tm-container-content tm-mt-60">
         <div class="row mb-4">
             <h2 class="col-6 tm-text-primary">
-                Последние работы:
+                Последние модели:
             </h2>
-         <!--   <div class="col-6 d-flex justify-content-end align-items-center">
+            <div class="col-6 d-flex justify-content-end align-items-center">
                 <form action="" class="tm-text-primary">
-                    Page <input type="text" value="1" size="1" class="tm-input-paging tm-text-primary"> of 200
+                    Page <input type="text" value="1" size="1" class="tm-input-paging tm-text-primary"> of 180
                 </form>
-            </div> -->
+            </div>
         </div>
         <div class="row tm-mb-90 tm-gallery">
-        	<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
-                <figure class="effect-ming tm-video-item">
-                    <img src="img/img-03.jpg" alt="Image" class="img-fluid">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                <figure class="tm-video-item">
+                    <img src="img/img-01.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
-                        <h2>Fashion</h2>
-                        <a href="https://eugenezakhno.github.io/fashion">View more</a>
+                        <div class="sketchfab-embed-wrapper"> <iframe title="Och Coffee_v2" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="1000" height="800" src="https://sketchfab.com/models/e638543496c34c829ff174347ae7be82/embed?autospin=1&autostart=1&preload=1"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/och-coffee-v2-e638543496c34c829ff174347ae7be82?utm_medium=embed&utm_campaign=share-popup&utm_content=e638543496c34c829ff174347ae7be82" target="_blank" rel="nofollow" style="font-weight: bold; color: #d91c3f;"> Och Coffee_v2 </a> by <a href="https://sketchfab.com/eugenezakhno?utm_medium=embed&utm_campaign=share-popup&utm_content=e638543496c34c829ff174347ae7be82" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> eugenezakhno </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=e638543496c34c829ff174347ae7be82" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
                     </figcaption>
                 </figure>
                 <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">18 March 2024</span>
-                    <span>9,906 views</span>
+                    <span>04 апр 2024</span>
+                    <a href="https://eugenezakhno.github.io/ochcoffee/">Мебель. Детальнее</a>
+                    <span>12,456 </span>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
-                <figure class="effect-ming tm-video-item">
-                    <img src="img/img-04.jpg" alt="Image" class="img-fluid">
+                <figure class="tm-video-item">
+                    <img src="img/img-02.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
-                        <h2>Medicine</h2>
-                        <a href="https://eugenezakhno.github.io/medicine">View more</a>
+                        <h2>Phygital</h2>
+                        <div class="sketchfab-embed-wrapper"> <iframe title="Phygital_ Future_games_v2" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="1000" height="800" src="https://sketchfab.com/models/a2bc6e6232d644b2a3d50c07a4ffc7ea/embed?autospin=1&autostart=1"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/phygital--future-games-v2-a2bc6e6232d644b2a3d50c07a4ffc7ea?utm_medium=embed&utm_campaign=share-popup&utm_content=a2bc6e6232d644b2a3d50c07a4ffc7ea" target="_blank" rel="nofollow" style="font-weight: bold; color: #fde411;"> Phygital_ Future_games_v2 </a> by <a href="https://sketchfab.com/eugenezakhno?utm_medium=embed&utm_campaign=share-popup&utm_content=a2bc6e6232d644b2a3d50c07a4ffc7ea" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> eugenezakhno </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=a2bc6e6232d644b2a3d50c07a4ffc7ea" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
                     </figcaption>
                 </figure>
                 <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">14 март 2024</span>
+                    <span>15 янв 2024</span>
+                    <a href="https://eugenezakhno.github.io/phygital">3D-Логотипы.  (См. детальнее)</a>
+                    <span>14,502</span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                <figure class=" tm-video-item">
+                    <img src="img/img-03.jpg" alt="Image" class="img-fluid">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>Polo</h2>
+                        <div class="sketchfab-embed-wrapper"> <iframe title="V Wpolo Sedan_v1" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="1000" height="800" src="https://sketchfab.com/models/a185ef8d741e41459c1dab22b9f66754/embed?autospin=1&autostart=1"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/v-wpolo-sedan-v1-a185ef8d741e41459c1dab22b9f66754?utm_medium=embed&utm_campaign=share-popup&utm_content=a185ef8d741e41459c1dab22b9f66754" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> V Wpolo Sedan_v1 </a> by <a href="https://sketchfab.com/eugenezakhno?utm_medium=embed&utm_campaign=share-popup&utm_content=a185ef8d741e41459c1dab22b9f66754" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> eugenezakhno </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=a185ef8d741e41459c1dab22b9f66754" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
+
+                    </figcaption>
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span>18 янв 2024</span>
+                    <a href="https://eugenezakhno.github.io/3D-VW-polo-sedan">3D-автомобили.  (См. детальнее)</a>
+                    <span>11,906</span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                <figure class="tm-video-item">
+                    <img src="img/img-04.jpg" alt="Image" class="img-fluid">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>Проект зданий </h2>
+                        <div class="sketchfab-embed-wrapper"> <iframe title="Home_v16compressed" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="1000" height="800" src="https://sketchfab.com/models/36b8e0bee91a4834bb63a1ca5eafc3c5/embed?autospin=1&autostart=1"> </iframe> </div>
+                    </figcaption>
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span>28 дек 2023</span>
+                    <a href="https://eugenezakhno.github.io/house">Проекты зданий.  (См. детальнее)</a>
                     <span>16,100</span>
                 </div>
             </div>
@@ -100,13 +137,13 @@
                 <figure class="effect-ming tm-video-item">
                     <img src="img/img-05.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
-                        <h2>Crypto</h2>
-                        <a href="https://eugenezakhno.github.io/crypto">View more</a>
+                        <h2>Morning</h2>
+                        <a href="video-detail.html">View more</a>
                     </figcaption>
                 </figure>
                 <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">12 мар 2024</span>
-                    <span>12,460</span>
+                    <span>24 Sep 2020</span>
+                    <span>16,008 views</span>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
@@ -114,38 +151,11 @@
                     <img src="img/img-06.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
                         <h2>Pinky</h2>
-                        <a href="photo-detail.html">View more</a>
+                        <a href="video-detail.html">View more</a>
                     </figcaption>
                 </figure>
                 <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">10 March 2024</span>
-                    <span>11,402 views</span>
-                </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
-                <figure class="effect-ming tm-video-item">
-                    <img src="img/img-01.jpg" alt="Image" class="img-fluid">
-                    <figcaption class="d-flex align-items-center justify-content-center">
-                        <h2>Hangers</h2>
-                        <a href="photo-detail.html">View more</a>
-                    </figcaption>
-                </figure>
-                <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">24 March2024</span>
-                    <span>16,008 views</span>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
-                <figure class="effect-ming tm-video-item">
-                    <img src="img/img-02.jpg" alt="Image" class="img-fluid">
-                    <figcaption class="d-flex align-items-center justify-content-center">
-                        <h2>Perfumes</h2>
-                        <a href="photo-detail.html">View more</a>
-                    </figcaption>
-                </figure>
-                <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">20 March 2024</span>
+                    <span>21 Sep 2020</span>
                     <span>12,860 views</span>
                 </div>
             </div>
@@ -154,11 +164,11 @@
                     <img src="img/img-07.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
                         <h2>Bus</h2>
-                        <a href="photo-detail.html">View more</a>
+                        <a href="video-detail.html">View more</a>
                     </figcaption>
                 </figure>
                 <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">16 March 2024</span>
+                    <span>18 Sep 2020</span>
                     <span>10,900 views</span>
                 </div>
             </div>
@@ -167,12 +177,12 @@
                     <img src="img/img-08.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
                         <h2>New York</h2>
-                        <a href="photo-detail.html">View more</a>
+                        <a href="video-detail.html">View more</a>
                     </figcaption>
                 </figure>
                 <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">12 March 2024</span>
-                    <span>11,300 views</span>
+                    <span>14 Sep 2020</span>
+                    <span>10,820 views</span>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
@@ -180,11 +190,11 @@
                     <img src="img/img-09.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
                         <h2>Abstract</h2>
-                        <a href="photo-detail.html">View more</a>
+                        <a href="video-detail.html">View more</a>
                     </figcaption>
                 </figure>
                 <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">10 March 2024</span>
+                    <span>12 Sep 2020</span>
                     <span>42,700 views</span>
                 </div>
             </div>
@@ -193,11 +203,11 @@
                     <img src="img/img-10.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
                         <h2>Flowers</h2>
-                        <a href="photo-detail.html">View more</a>
+                        <a href="video-detail.html">View more</a>
                     </figcaption>
                 </figure>
                 <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">8 March 2024</span>
+                    <span>9 Sep 2020</span>
                     <span>11,402 views</span>
                 </div>
             </div>
@@ -206,11 +216,11 @@
                     <img src="img/img-11.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
                         <h2>Rosy</h2>
-                        <a href="photo-detail.html">View more</a>
+                        <a href="video-detail.html">View more</a>
                     </figcaption>
                 </figure>
                 <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">4 March 2024</span>
+                    <span>8 Sep 2020</span>
                     <span>32,906 views</span>
                 </div>
             </div>
@@ -219,11 +229,11 @@
                     <img src="img/img-12.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
                         <h2>Rocki</h2>
-                        <a href="photo-detail.html">View more</a>
+                        <a href="video-detail.html">View more</a>
                     </figcaption>
                 </figure>
                 <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">28 April 2024</span>
+                    <span>6 Sep 2020</span>
                     <span>50,700 views</span>
                 </div>
             </div>
@@ -232,11 +242,11 @@
                     <img src="img/img-13.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
                         <h2>Purple</h2>
-                        <a href="photo-detail.html">View more</a>
+                        <a href="video-detail.html">View more</a>
                     </figcaption>
                 </figure>
                 <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">22 April 2024</span>
+                    <span>28 Aug 2020</span>
                     <span>107,510 views</span>
                 </div>
             </div>
@@ -245,11 +255,11 @@
                     <img src="img/img-14.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
                         <h2>Sea</h2>
-                        <a href="photo-detail.html">View more</a>
+                        <a href="video-detail.html">View more</a>
                     </figcaption>
                 </figure>
                 <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">14 April 2024</span>
+                    <span>24 Aug 2020</span>
                     <span>118,006 views</span>
                 </div>
             </div>
@@ -258,11 +268,11 @@
                     <img src="img/img-15.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
                         <h2>Turtle</h2>
-                        <a href="photo-detail.html">View more</a>
+                        <a href="video-detail.html">View more</a>
                     </figcaption>
                 </figure>
                 <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">9 April 2024</span>
+                    <span>20 Aug 2020</span>
                     <span>121,300 views</span>
                 </div>
             </div>
@@ -271,16 +281,16 @@
                     <img src="img/img-16.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
                         <h2>Peace</h2>
-                        <a href="photo-detail.html">View more</a>
+                        <a href="video-detail.html">View more</a>
                     </figcaption>
                 </figure>
                 <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">3 April 2024</span>
+                    <span>14 Aug 2020</span>
                     <span>21,204 views</span>
                 </div>
             </div>
         </div> <!-- row -->
-     <!--   <div class="row tm-mb-90">
+        <div class="row tm-mb-90">
             <div class="col-12 d-flex justify-content-between align-items-center tm-paging-col">
                 <a href="javascript:void(0);" class="btn btn-primary tm-btn-prev mb-2 disabled">Previous</a>
                 <div class="tm-paging d-flex">
@@ -289,20 +299,20 @@
                     <a href="javascript:void(0);" class="tm-paging-link">3</a>
                     <a href="javascript:void(0);" class="tm-paging-link">4</a>
                 </div>
-                <a href="javascript:void(0);" class="btn btn-primary tm-btn-next">Далее...</a>
+                <a href="javascript:void(0);" class="btn btn-primary tm-btn-next">Next Page</a>
             </div>
-        </div> -->
+        </div>
     </div> <!-- container-fluid, tm-container-content -->
 
-    <footer class="tm-bg-gray pt-5 pb-3 tm-text-gray tm-footer">
+    <div class="tm-bg-gray pt-5 pb-3 tm-text-gray">
         <div class="container-fluid tm-container-small">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-12 px-5 mb-5">
-                    <h3 class="tm-text-primary mb-4 tm-footer-title">About Me</h3>
-                    <p>Catalog-Z is free <a rel="sponsored" href="https://v5.getbootstrap.com/">Bootstrap 5</a> Alpha 2 HTML Template for video and photo websites. You can freely use this TemplateMo layout for a front-end integration with any kind of CMS website.</p>
+                    <h3 class="tm-text-primary mb-4">About Catalog-Z</h3>
+                    <p>Catalog-Z is free Bootstrap 5 Alpha 2 HTML Template for video and photo websites. You can freely use this TemplateMo layout for a front-end integration with any kind of CMS website.</p>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 col-12 px-5 mb-5">
-                    <h3 class="tm-text-primary mb-4 tm-footer-title">My Links</h3>
+                    <h3 class="tm-text-primary mb-4">Our Links</h3>
                     <ul class="tm-footer-links pl-0">
                         <li><a href="#">Advertise</a></li>
                         <li><a href="#">Support</a></li>
@@ -323,19 +333,79 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-md-7 col-12 px-5 mb-3">
-                    Copyright 2024 Eugene Zakhno. All rights reserved.
+                    Copyright 2020 Catalog-Z Company. All rights reserved.
                 </div>
                 <div class="col-lg-4 col-md-5 col-12 px-5 text-right">
-                    Designed by <a href="https://eugenezakhno.github.io" class="tm-text-gray" rel="sponsored" target="_parent">Eugene Zakhno</a>
+                    Designed by <a href="https://templatemo.com" class="tm-text-gray" rel="sponsored" target="_parent">TemplateMo</a>
                 </div>
             </div>
         </div>
-    </footer>
+    </div>
 
     <script src="js/plugins.js"></script>
     <script>
         $(window).on("load", function() {
             $('body').addClass('loaded');
+        });
+
+        $(function(){
+            /************** Video background *********/
+
+            function setVideoSize() {
+                const vidWidth = 1280;
+                const vidHeight = 720;
+                const maxVidHeight = 400;
+                let windowWidth = window.innerWidth;
+                let newVidWidth = windowWidth;
+                let newVidHeight = windowWidth * vidHeight / vidWidth;
+                let marginLeft = 0;
+                let marginTop = 0;
+
+                if (newVidHeight < maxVidHeight) {
+                    newVidHeight = maxVidHeight;
+                    newVidWidth = newVidHeight * vidWidth / vidHeight;
+                }
+
+                if(newVidWidth > windowWidth) {
+                    marginLeft = -((newVidWidth - windowWidth) / 2);
+                }
+
+                if(newVidHeight > maxVidHeight) {
+                    marginTop = -((newVidHeight - $('#tm-video-container').height()) / 2);
+                }
+
+                const tmVideo = $('#tm-video');
+
+                tmVideo.css('width', newVidWidth);
+                tmVideo.css('height', newVidHeight);
+                tmVideo.css('margin-left', marginLeft);
+                tmVideo.css('margin-top', marginTop);
+            }
+
+            setVideoSize();
+
+            // Set video background size based on window size
+            let timeout;
+            window.onresize = function () {
+                clearTimeout(timeout);
+                timeout = setTimeout(setVideoSize, 100);
+            };
+
+            // Play/Pause button for video background
+            const btn = $("#tm-video-control-button");
+
+            btn.on("click", function (e) {
+                const video = document.getElementById("tm-video");
+                $(this).removeClass();
+
+                if (video.paused) {
+                    video.play();
+                    $(this).addClass("fas fa-pause");
+                } else {
+                    video.pause();
+                    $(this).addClass("fas fa-play");
+                }
+            });
         });
     </script>
 </body>

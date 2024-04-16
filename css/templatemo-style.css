@@ -190,7 +190,7 @@ a:hover { color:#009999; }
 .navbar-brand i { font-size: 2rem; }
 
 .tm-hero {
-    min-height: 200px;
+    min-height: 300px;
     background: transparent;
 }
 
@@ -573,22 +573,16 @@ select:not([multiple]) {
     background-color: #009999;
 }
 
-.form-control,
-input:-internal-autofill-selected,
-select:not([multiple]) {
-    color: #009999 !important;
-}
 
 .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color:  #009999;
     opacity: 1; /* Firefox */
 }
 
-@media (max-width: 991px) {
+@media (max-width: 990px) {
     .navbar-collapse {
         position: fixed;
         top: 50px;
-        right: 0px;
         background: white;
         width: 150px;
         padding: 15px;
@@ -635,4 +629,7 @@ select:not([multiple]) {
     }
 
     .tm-social-links li { margin-right: 3px; }
+}
+.main-pict{
+    align-content: center;
 }

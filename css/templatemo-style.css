@@ -630,6 +630,6 @@ select:not([multiple]) {
 
     .tm-social-links li { margin-right: 3px; }
 }
-.main-pict{
-    align-content: center;
+.main-pict {
+    align-content: center !important;
 }

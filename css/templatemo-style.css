@@ -599,6 +599,9 @@ select:not([multiple]) {
     .tm-about-img-text { max-width: 640px; }
     .tm-about-2-col, .tm-about-3-col { margin-bottom: 50px; }
 }
+@media only screen and (max-width: 767px) {
+    body {     /* Здесь размер файла уменьшен на 93% чтобы  увеличить скорость загрузки страницы с мобильных устройств */
+    background-image: url(../img/hero.jpg);   } }
 
 @media (max-width: 575px) {
     .tm-container-content { max-width: 420px; }

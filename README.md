@@ -1,1 +1,1 @@
-https://eugenezakhno.github.io/webportfolio
+https://eugenezakhno.github.io/portfolio
